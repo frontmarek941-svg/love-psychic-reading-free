@@ -73,6 +73,14 @@
 
 .nav-cta { display: none; }
 @media (min-width: 1024px) { .nav-cta { display: block; } }
+/* Some deploys force .nav-cta visible below 1024px via an inline style
+   (language switcher injection) so it can't be hidden with the rule above.
+   Without this, the CTA button wraps onto multiple lines inside the
+   narrow mobile nav and inflates the fixed header's height until it
+   overlaps page content on scroll. Keep the language switcher visible,
+   just drop the redundant button (it's still available in the hero and
+   the mobile menu). */
+@media (max-width: 1023px) { .nav-cta .btn-primary { display: none; } }
 
 /* Mobile menu */
 .mobile-toggle {
