@@ -1,0 +1,44 @@
+:root {
+    /* Primary Palette */
+    --color-purple: #6b2c91;
+    --color-purple-dark: #3d1c5b;
+    --color-purple-light: #f3e5f5;
+    --color-magenta: #b85cb8;
+    --color-magenta-light: #f8e4f8;
+    --color-gold: #d4af37;
+    --color-gold-light: #f4e5a1;
+    --color-rosegold: #b76e79;
+
+    /* Semantic */
+    --color-bg: #faf5fc;
+    --color-text: #3d1c5b;
+    --color-text-light: #6b5b7b;
+    --color-text-muted: #9b8ba8;
+    --color-border: #e0cce8;
+    --color-white: #ffffff;
+
+    /* Typography */
+    --font-display: 'Great Vibes', cursive;
+    --font-body: 'Poppins', sans-serif;
+
+    /* Spacing */
+    --section-padding: 80px 0;
+    --section-padding-lg: 128px 0;
+    --container-max: 1280px;
+    --container-padding: 16px;
+
+    /* Borders & Shadows */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 16px;
+    --radius-xl: 24px;
+    --radius-full: 9999px;
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+    --shadow-romantic: 0 10px 40px -10px rgba(107, 44, 145, 0.3);
+    --shadow-glow: 0 0 30px rgba(184, 92, 184, 0.4);
+    --shadow-glow-lg: 0 0 50px rgba(184, 92, 184, 0.5);
+
+    /* Transitions */
+    --transition: 0.3s ease;
+    --transition-slow: 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
